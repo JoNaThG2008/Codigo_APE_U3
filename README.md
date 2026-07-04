@@ -10,6 +10,7 @@ float calcularAA();
 float calcularES();
 
 // Función principal
+
 int main() {
 
     float notaFinal = 0, notaCiclo;
@@ -45,7 +46,9 @@ int main() {
 
     return 0;
 }
+
 // Calcular el promedio de una unidad
+
 float calcularPromedioUnidad(int unidad) {
 
     float acd, ape, aa, es, promedioUnidad;
@@ -73,7 +76,9 @@ float calcularPromedioUnidad(int unidad) {
     // Retornar el promedio de la unidad
     return promedioUnidad;
 }
+
 // Nota ponderada del ACD
+
 float calcularACD() {
 
     int actividades;
@@ -112,7 +117,9 @@ float calcularACD() {
 
     return ponderado;
 }
+
 // Nota ponderada del APE
+
 float calcularAPE() {
 
     int actividades;
@@ -151,7 +158,9 @@ float calcularAPE() {
 
     return ponderado;
 }
+
 // Nota ponderada del AA
+
 float calcularAA() {
 
     int actividades;
@@ -190,7 +199,9 @@ float calcularAA() {
 
     return ponderado;
 }
+
 // Nota ponderada del ES
+
 float calcularES() {
 
     float eS, portafolioDigital;
